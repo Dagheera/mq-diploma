@@ -23,8 +23,7 @@
     background-size: cover;
     min-height: 450px;
     max-width: 100%;
-    width: 1660px;
-    margin: 0 auto;
+   
     position: relative;
     background-color: #666;
     display: flex;
@@ -33,7 +32,6 @@
   
   .header::before {
     content: "";
-    display: flex;
     background-color: #000000;
     position: absolute;
     top: 0;
@@ -104,13 +102,26 @@
    text-decoration: none;
    color: #ffffff;
   }
+
+  .trends-container {
+    margin-top: 58px;
+  }
   
+  .trends-categories {
+   display: flex;
+   gap: 4px;
+   margin-top: 28px;
+  }
+
+  .trends-img {
+    width: calc(25% - 4px);
+  }
+
   .container {
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 1200px;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
    }
   
