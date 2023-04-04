@@ -23,7 +23,6 @@
     background-size: cover;
     min-height: 450px;
     max-width: 100%;
-   
     position: relative;
     background-color: #666;
     display: flex;
@@ -99,8 +98,8 @@
   }
   
   .menu-link {
-   text-decoration: none;
-   color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
   }
 
   .trends-container {
@@ -108,41 +107,190 @@
   }
   
   .trends-categories {
-   display: flex;
-   gap: 4px;
-   margin-top: 28px;
+    display: flex;
+    gap: 4px;
+    margin-top: 28px;
   }
 
   .trends-img-1 {
     width: calc(25% - 4px);
-    min-height: 320px;
+    min-height: 348px;
+    position: relative;
     background-image: url("../images/trend1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #888888;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+
+  .trends-img-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  .trends-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 38px;
+    padding-left: 33px;
+    padding-bottom: 33px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #b59f5b;
+    z-index: 2;
   }
 
   .trends-img-2 {
     width: calc(25% - 4px);
-    min-height: 320px;
+    min-height: 348px;
+    position: relative;
     background-image: url("../images/trend2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #888888;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+
+  .trends-img-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  .trends-box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 38px;
+    padding-left: 33px;
+    padding-bottom: 33px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #b59f5b;
+    z-index: 2;
   }
 
   .trends-img-3 {
     width: calc(25% - 4px);
-    min-height: 320px;
+    position: relative;
+    min-height: 348px;
     background-image: url("../images/trend3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #888888;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+
+  .trends-img-3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  .trends-box-3 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 38px;
+    padding-left: 33px;
+    padding-bottom: 33px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #b59f5b;
+    z-index: 2;
   }
 
   .trends-img-4 {
     width: calc(25% - 4px);
-    min-height: 320px;
+    position: relative;
+    min-height: 348px;
     background-image: url("../images/trend4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #888888;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+  }
+
+  .trends-img-4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  .trends-box-4 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding-top: 38px;
+    padding-left: 33px;
+    padding-bottom: 33px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #b59f5b;
+    z-index: 2;
+  }
+
+  .trends-article-tag {
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    color: #b59f5b;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+  }
+
+  .trends-article-tag:hover {
+    text-decoration: underline;
+  }
+
+  .trends-title {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    font-style: Bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
   }
 
   .container {
@@ -155,6 +303,7 @@
   
   .articles {
     margin-top: 64px;
+    flex-grow: 1;
   }
   
   .article {
@@ -545,6 +694,108 @@
     margin: 13px 0;
   }
   
+  .shop-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .shop-container {
+    margin-top: 65px;
+  }
+
+  .shop-items-container {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 30px;
+  }
+
+  .shop-item-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .outline-container {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    margin-top: -235px;
+  }
+
+  .card-outline {
+    width: 347px;
+    height: 267px;
+    background-color: rgba(0,0,0,0);
+    outline: 3px solid #b59f5b;
+  }
+
+  .shop-item-img {
+    margin-bottom: 24px;
+  }
+
+  .shop-item-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+    font-style: Bold;
+  } 
+
+  .description-link {
+    text-decoration: none;
+    color: #b59f5b;
+  }
+
+  .description-link:hover {
+    text-decoration: underline;
+  }
+
+  .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .shop-prices {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .shop-item-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+  }
+
+  .shop-item-discount-price {
+    font-size: 20px;
+    font-style: Bold;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+  }
+
+  .shop-button {
+    width: 139px;
+    height: 48px;
+    position: relative;
+    background-color: #b59f5b;
+    border: none;
+    cursor: pointer;
+  }
+
+  .shop-button:hover {
+    background-color: #323232;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: column;
