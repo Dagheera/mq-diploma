@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="header-trends-container">
+
+<div class="page-container">
+    <div class="header-trends-container">
     <header class="header">
         <div class="header-container">
             <a href="https://codepen.io/Darinella/pen/zYLRLdQ">
@@ -44,8 +46,8 @@
         <h1 class="headline">Сейчас в тренде</h1>
         <div class="trends-categories">
             
-            <article class="trends-img-1">
-                <div class="trends-box-1">
+            <article class="trends-img-plants">
+                <div class="trends-box">
                     <div class="tag-container">
                         <ul class="tags-list">
                             <li class="tags-list-item">
@@ -61,8 +63,8 @@
             </article>
             
 
-            <article class="trends-img-2">
-                <div class="trends-box-2">
+            <article class="trends-img-cheese">
+                <div class="trends-box">
                     <div class="tag-container">
                         <ul class="tags-list">
                             <li class="tags-list-item">
@@ -74,8 +76,8 @@
                 </div>
             </article>
 
-            <article class="trends-img-3">
-                <div class="trends-box-3">
+            <article class="trends-img-mountains">
+                <div class="trends-box">
                     <div class="tag-container">
                         <ul class="tags-list">
                             <li class="tags-list-item">
@@ -90,8 +92,8 @@
                 </div>
             </article>
 
-            <article class="trends-img-4">
-                <div class="trends-box-4">
+            <article class="trends-img-lemons">
+                <div class="trends-box">
                     <div class="tag-container">
                         <ul class="tags-list">
                             <li class="tags-list-item">
@@ -108,9 +110,9 @@
             
         </div>
     </section>
-</div>
+    </div>
       
-<div class="container">
+    <div class="container">
     <main class="articles">
         <article class="article">
             <img src="images/last-post1.jpg" alt="человек на пляже" class="article-item-img">
@@ -341,30 +343,32 @@
             </div>
         </section>
     </aside>
-</div>
+    </div>
 
-<div class="shop-footer-container">
+    <div class="shop-footer-container">
     <section class="shop-container">
         <h1 class="headline">Наши изделия</h1>
         <div class="shop-items-container">
             <article class="shop-item">
                 <div class="shop-item-card">
                     <img src="images/shop-item-desk1.jpg" class="shop-item-img" alt="декоративная подкушка на диван">
-                    <span class="shop-item-title">Подушки на диван</span>
-                    <p class="shop-item-description">
-                        Набор из двух подушек с модными принтами. Видео о создании
-                        <a href="#0" class="description-link">здесь</a>.
+                    <div class="shop-item-border">
+                        <span class="shop-item-title">Подушки на диван</span>
+                        <p class="shop-item-description">
+                            Набор из двух подушек с модными принтами. Видео о создании
+                            <a href="#0" class="description-link">здесь</a>.
                         </p>
-                    <div class="shop">
-                        <div class="shop-prices">
-                            <span class="shop-item-price">1000 &#8381;</span>
-                            <span class="shop-item-discount-price">800 &#8381;</span>
+                        <div class="shop">
+                            <div class="shop-prices">
+                                <span class="shop-item-price">1000 &#8381;</span>
+                                <span class="shop-item-discount-price">800 &#8381;</span>
+                            </div>
+                            <form class="shop-form" action="https://ya.ru/qwe">
+                                <button class="shop-button" type="submit">
+                                    <span class="button-text">В магазин</span>
+                                </button>
+                            </form>
                         </div>
-                        <form class="shop-form" action="https://ya.ru/qwe">
-                            <button class="shop-button" type="submit">
-                                <span class="button-text">В магазин</span>
-                            </button>
-                        </form>
                     </div>
                 </div>
             </article>
@@ -372,60 +376,51 @@
             <article class="shop-item">
                 <div class="shop-item-card">
                     <img src="images/shop-item-desk2.jpg" class="shop-item-img" alt="кукла зайчик">
-                    <span class="shop-item-title">Кукла "Зайчик"</span>
-                    <p class="shop-item-description">
-                        Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена
-                        <a href="#0" class="description-link">весенняя серия постов</a>
-                        в блоге и несколько подкастов.
-                    </p>
-                    <div class="shop">
-                        <span class="shop-item-discount-price">3500 &#8381;</span>
-                        <form class="shop" action="https://ya.ru/qwe">
-                            <button class="shop-button" type="submit">
-                                <span class="button-text">В магазин</span>
-                            </button>
-                        </form>
-                    </div>
-                    
+                    <div class="shop-item-border">
+                        <span class="shop-item-title">Кукла "Зайчик"</span>
+                        <p class="shop-item-description">
+                            Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена
+                            <a href="#0" class="description-link">весенняя серия постов</a>
+                            в блоге и несколько подкастов.
+                        </p>
+                        <div class="shop">
+                            <div class="shop-prices">
+                                <span class="shop-item-discount-price">3500 &#8381;</span>
+                            </div>
+                            <form class="shop" action="https://ya.ru/qwe">
+                                <button class="shop-button" type="submit">
+                                    <span class="button-text">В магазин</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>  
                 </div>
             </article>
 
             <article class="shop-item">
                 <div class="shop-item-card">
                     <img src="images/shop-item-desk3.jpg" class="shop-item-img" alt="шестиугольная рамка для декора">
-                    <span class="shop-item-title">Шестиугольная рамка</span>
-                    <p class="shop-item-description">
-                        Необычная рамка для украшения дома из видео
-                        <a href="#0" class="description-link">"Как сделать рамку из подручных средств за 30 минут?"</a>
-                    </p>
-                    <div class="shop">
-                        <div class="shop-prices">
-                            <span class="shop-item-price">500 &#8381;</span>
-                            <span class="shop-item-discount-price">400 &#8381;</span>
+                    <div class="shop-item-border">
+                        <span class="shop-item-title">Шестиугольная рамка</span>
+                        <p class="shop-item-description">
+                            Необычная рамка для украшения дома из видео
+                            <a href="#0" class="description-link">"Как сделать рамку из подручных средств за 30 минут?"</a>
+                        </p>
+                        <div class="shop">
+                            <div class="shop-prices">
+                                <span class="shop-item-price">500 &#8381;</span>
+                                <span class="shop-item-discount-price">400 &#8381;</span>
+                            </div>
+                            <form class="shop" action="https://ya.ru/qwe">
+                                <button class="shop-button" type="submit">
+                                    <span class="button-text">В магазин</span>
+                                </button>
+                            </form>
                         </div>
-                    <form class="shop" action="https://ya.ru/qwe">
-                        <button class="shop-button" type="submit">
-                            <span class="button-text">В магазин</span>
-                        </button>
-                    </form>
+                    </div>
                 </div>
             </article>
         </div>
-
-        <div class="outline-container">
-            <div class="card-outline">
-                <span class="visually-hidden">Рамка</span>
-            </div>
-
-            <div class="card-outline">
-                <span class="visually-hidden">Рамка</span>
-            </div>
-
-            <div class="card-outline">
-                <span class="visually-hidden">Рамка</span>
-            </div>
-        </div>
-    </section>
     
     <footer class="footer">
     <div class="footer-container">
@@ -448,6 +443,40 @@
         </div>
     </div>
     </footer>
+    </div>
+
+    <section class="popup-container">
+        <form class="popup">
+            <label class="popup-close">
+                <span class="visually-hidden">&times</span>
+            </label>
+            <h1 class="popup-headline">Ваш фидбек</h1>
+            <label class="popup-field">
+                <span class="form-text">Как часто вы заходите на сайт?</span>   
+                <select class="options">
+                    <option class="option-text" selected>Почти каждый день</option>
+                    <option class="option-text">Раз в несколько дней</option>
+                    <option class="option-text">Раз в несколько недель</option>
+                    <option class="option-text">Несколько разз в год</option>
+                </select>
+            </label>
+            <span class="form-text">Вы подписаны на e-mail рассылку?</span>
+            <label class="popup-radio">
+                <input type="radio" class="radio" name="popup-radio">
+                <span class="radio-text">Да</span>
+                <input type="radio" class="radio" name="popup-radio">
+                <span class="radio-text">Нет</span>
+            </label>
+            <span class="form-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <label class="popup-field">    
+                <textarea class="popup-field-textarea" placeholder="Может, больше рецептов?"></textarea>
+            </label>
+            <button class="popup-submit-button" type="submit">
+                <span class="button-text">Отправить</span>
+            </button>
+        </form>
+    </section>
 </div>
+
 </body>
 </html>
