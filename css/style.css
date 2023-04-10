@@ -807,17 +807,16 @@
     font-style: Bold;
   }
 
-  .page-container {
-    display: flex;
-    flex-direction: column;
+  .popup-container {
+    display: none;
   }
 
   .popup {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 200px;
-    left: 565px;
+    top: 0;
+    left: 0;
     width: 390px;
     min-height: 589px;
     box-sizing: border-box;
