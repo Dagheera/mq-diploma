@@ -453,20 +453,22 @@
             <h1 class="popup-headline">Ваш фидбек</h1>
             <label class="popup-field">
                 <span class="form-text">Как часто вы заходите на сайт?</span>   
-                <select class="options">
-                    <option class="option-text" selected>Почти каждый день</option>
-                    <option class="option-text">Раз в несколько дней</option>
-                    <option class="option-text">Раз в несколько недель</option>
-                    <option class="option-text">Несколько разз в год</option>
-                </select>
+                    <select class="options" required>
+                        <option class="option-text" selected>Почти каждый день</option>
+                        <option class="option-text">Раз в несколько дней</option>
+                        <option class="option-text">Раз в несколько недель</option>
+                        <option class="option-text">Несколько раз в год</option>
+                    </select>
             </label>
             <span class="form-text">Вы подписаны на e-mail рассылку?</span>
-            <label class="popup-radio">
-                <input type="radio" class="radio" name="popup-radio">
+           
+            <label for="popup-radio-button" class="popup-radio">
+                <input type="radio" class="radio-button" id="popup-radio-button" checked>
                 <span class="radio-text">Да</span>
-                <input type="radio" class="radio" name="popup-radio">
+                <input type="radio" class="radio-button" id="popup-radio-button">
                 <span class="radio-text">Нет</span>
             </label>
+            
             <span class="form-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
             <label class="popup-field">    
                 <textarea class="popup-field-textarea" placeholder="Может, больше рецептов?"></textarea>
